@@ -1,0 +1,23 @@
+{
+  "name": "cra-tailwindcss",
+  "version": "1.0.0",
+  "scripts": {
+    "prestart": "tailwind build ./src/tailwind.input.css -c ./tailwind.config.js -o ./src/tailwind.output.css",
+    "start": "react-scripts start",
+    "prebuild": "tailwind build ./src/tailwind.input.css -c ./tailwind.config.js -o ./src/tailwind.output.css",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"    
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.0",
+    "tailwindcss": "^1.8.10"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
